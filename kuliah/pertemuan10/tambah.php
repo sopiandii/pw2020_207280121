@@ -6,14 +6,14 @@ if (isset($_POST['simpan'])) {
     echo "
 			<script>
 				alert('Data berhasil disimpan!');
-				document.location.href = 'latihan3.php';
+				document.location.href = 'index.php';
 			</script>
 		";
   } else {
     echo "
     <script>
       alert('Data gagal disimpan!');
-      document.location.href = 'latihan3.php';
+      document.location.href = 'index.php';
     </script>
   ";
   }

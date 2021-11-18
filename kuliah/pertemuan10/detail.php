@@ -27,8 +27,8 @@ $pegawai = query("SELECT * FROM pegawai where id = $id");
     <li>NIP : <?= $pegawai['nip']; ?></li>
     <li>Pangkat, Gol : <?= $pegawai['pangkat']; ?></li>
     <li>Jabatan : <?= $pegawai['jabatan']; ?></li>
-    <li><a href="">Ubah</a> | <a href="">Hapus</a></li>
-    <li><a href="latihan3.php">Kembali ke daftar pegawai</a></li>
+    <li><a href="ubah.php?id=<?= $pegawai['id']; ?>">Ubah</a> | <a href="hapus.php?id=<?= $pegawai['id']; ?>" onclick="return confirm('Hapus data?');">Hapus</a></li>
+    <li><a href="index.php">Kembali ke daftar pegawai</a></li>
   </ul>
 </body>
 
