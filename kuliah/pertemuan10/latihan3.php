@@ -5,7 +5,6 @@ $pegawai = query("SELECT * FROM pegawai");
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +17,9 @@ $pegawai = query("SELECT * FROM pegawai");
 
 <body>
   <h3>Daftar Pegawai</h3>
+
+  <a href="tambah.php">Tambah Data</a>
+  <br><br>
 
   <table border="1" cellpadding="10" cellspacing="0">
 
