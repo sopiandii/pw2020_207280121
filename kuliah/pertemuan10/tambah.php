@@ -67,8 +67,13 @@ if (isset($_POST['simpan'])) {
           <input type="text" name="gambar" required>
         </label>
       </li>
+      <br>
       <li>
         <button type="submit" name="simpan">Simpan</button>
+      </li>
+      <br>
+      <li>
+        <a href="index.php">Kembali ke daftar pegawai</a>
       </li>
     </ul>
   </form>
